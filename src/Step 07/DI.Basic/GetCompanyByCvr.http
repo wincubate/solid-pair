@@ -1,0 +1,8 @@
+@host=https://localhost:7256
+
+POST {{host}}/companies/get
+Content-Type: application/json
+
+{
+    "cvr": "34576319"
+}

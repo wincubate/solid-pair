@@ -1,0 +1,17 @@
+@host=https://localhost:7256
+
+POST {{host}}/companies/create
+Content-Type: application/json
+
+{
+    "cvr": "34546319",
+    "p": "1017673412",
+    "name": "Wincubate ApS",
+    "street": "Ringgårdsvej 4A",
+    "city": "Højbjerg",
+    "zip": "8270",
+    "country": "DK",
+    "homepage": "www.wincubate.net",
+    "email": "jgh@wincubate.net",
+    "phone": "+4522123631"
+}
